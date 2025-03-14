@@ -13,8 +13,8 @@ const char* serverIP = "192.168.1.100";
 const int serverPort = 8080;
 
 // Initialize Telegram BOT
-String BOTtoken = "8080113922:AAHvxqdQ54gYd2PdqgYPAj4dwZWtIpyOX7I";  // your Bot Token (Get from Botfather)
-String CHAT_ID = "1773456421";  // your chat ID (Get it from @myidbot or the chat)
+String BOTtoken = "8080113922:AAHvxqdQ54gYd2PdqgYPAj4dwZWtIpyOX7I";  
+String CHAT_ID = "1773456421"; 
 
 WiFiClientSecure clientTCP;
 UniversalTelegramBot bot(BOTtoken, clientTCP);
